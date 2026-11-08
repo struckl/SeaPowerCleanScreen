@@ -1,0 +1,1 @@
+First version. Switches off the game's version label. One setting to bring it back.

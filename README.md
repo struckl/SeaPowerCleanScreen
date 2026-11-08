@@ -1,4 +1,4 @@
-﻿# Sea Power: R.A.T.S. Clean Screen
+# Sea Power: R.A.T.S. Clean Screen
 
 A tiny mod for [Sea Power: Naval Combat in the Missile Age](https://store.steampowered.com/app/1286220/) that keeps the game's own
 **version label** ("Sea Power v0.8.7-261107", shown on the Steam beta branch) off the screen. The game draws it above everything,

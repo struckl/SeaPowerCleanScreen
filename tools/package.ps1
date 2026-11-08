@@ -1,4 +1,4 @@
-﻿<#
+<#
 .SYNOPSIS
     Builds a release of Sea Power Clean Screen and stages the folder that goes to the Steam Workshop.
 

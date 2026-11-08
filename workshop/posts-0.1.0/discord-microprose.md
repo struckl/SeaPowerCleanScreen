@@ -1,0 +1,1 @@
+Small mod for the beta branch: it hides the version text that lies over window title bars. One setting brings it back. Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=None  Source: https://github.com/struckl/SeaPowerCleanScreen
