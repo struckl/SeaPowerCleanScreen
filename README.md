@@ -5,7 +5,7 @@ A tiny mod for [Sea Power: Naval Combat in the Missile Age](https://store.steamp
 so it lay over the title bars of every window - the map's buttons, pop-out windows, any mod's windows.
 
 - One setting, `Hide version label` (on by default), in `BepInEx\config\dev.sewerlabs.seapowercleanscreen.cfg`. Off = the game's label stays.
-- One DLL for both game versions (flat 0.8.7 and the 3D-globe beta). It does nothing else.
+- One DLL for both game versions (flat 0.8.7 and the 3D-globe beta), checked offline against both; not yet run in the game. It does nothing else.
 - Loaded by R.A.T.S. Keel or Anchor Chain. Manual install: put `SeaPowerCleanScreen.dll` and `_info.ini` into
   `<Sea Power>\Sea Power_Data\StreamingAssets\SeaPowerCleanScreen\`.
 
