@@ -1,6 +1,6 @@
 **Title**
 
-Clean Screen: a tiny mod that hides the beta version text over the windows
+R.A.T.S. Clean Screen: a tiny mod that hides the beta version text over the windows
 
 **Body**
 
