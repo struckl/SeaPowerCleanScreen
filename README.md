@@ -6,6 +6,7 @@ so it lay over the title bars of every window - the map's buttons, pop-out windo
 
 - One setting, `Hide version label` (on by default), in `BepInEx\config\dev.sewerlabs.seapowercleanscreen.cfg`. Off = the game's label stays.
 - It does nothing else.
+- On the Steam Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3836386468
 - Loaded by [R.A.T.S. Keel](https://steamcommunity.com/sharedfiles/filedetails/?id=3835527459). Manual install: put `SeaPowerCleanScreen.dll` and `_info.ini` into
   `<Sea Power>\Sea Power_Data\StreamingAssets\SeaPowerCleanScreen\`.
 
