@@ -1,2 +1,2 @@
 0.2.0: no code any more. The mod is a config patch (two ini lines) that sets the game's own ShowVersionWatermark to False, so it needs no mod loader. Switch the mod off in the Mods menu to get the label back.
-Not run in the game yet.
+Run in the game on the 3D globe public beta (build 261107): a mission shows no version label. 0.8.7 not run.

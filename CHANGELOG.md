@@ -4,7 +4,7 @@
 
 The mod is now two ini files: `config_patch.ini` extends the game's `config.ini` with `[Debug] ShowVersionWatermark=False`, which the game reads
 before it draws its version label. No DLL, no mod loader (Keel or Anchor Chain) needed, no config file of its own: switch the mod off in the Mod
-Manager to get the label back. Not run in the game yet.
+Manager to get the label back. Run in the game on the globe beta (build 261107) on 2026-11-09: Red Sea Breakout shows no version label with the mod on. 0.8.7 not run.
 
 ## 0.1.0 - 2026-11-08
 
