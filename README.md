@@ -4,16 +4,18 @@ A tiny mod for [Sea Power: Naval Combat in the Missile Age](https://store.steamp
 **version label** ("Sea Power v0.8.7-261107", shown on the Steam beta branch) off the screen. The game draws it above everything,
 so it lay over the title bars of every window - the map's buttons, pop-out windows, any mod's windows.
 
-- One setting, `Hide version label` (on by default), in `BepInEx\config\dev.sewerlabs.seapowercleanscreen.cfg`. Off = the game's label stays.
+- No code: the mod is two ini files. `config_patch.ini` extends the game's own `config.ini` with `[Debug] ShowVersionWatermark=False`,
+  the switch the game itself reads before it draws the label. Nothing is loaded, no mod loader is needed.
+- To get the label back, switch the mod off in the game's Mod Manager (or set the value to `True`).
 - It does nothing else.
 - On the Steam Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3836386468
-- Loaded by [R.A.T.S. Keel](https://steamcommunity.com/sharedfiles/filedetails/?id=3835527459). Manual install: put `SeaPowerCleanScreen.dll` and `_info.ini` into
-  `<Sea Power>\Sea Power_Data\StreamingAssets\SeaPowerCleanScreen\`.
+- Manual install: put the folder `SeaPowerCleanScreen` (with `_info.ini` and `config_patch.ini`) into
+  `<Sea Power>\Sea Power_Data\StreamingAssets\` and switch the mod on in the Mod Manager.
 
-How it works: once a second it looks up the game's `VersionWatermark` object and switches it off if it is on.
+Version 0.1.0 was a plugin that switched the label off once a second; since 0.2.0 the game's own config patch does it.
 
-## Build
+## Package
 
-`powershell -File tools\package.ps1 [-Install]` (set `AnchorChainDir` to a folder with `AnchorChain.dll` when the game folder has none).
+`powershell -File tools\package.ps1 [-Install]` stages `dist\SeaPowerCleanScreen` (no build); `-Install` also puts it into the game folder.
 
 MIT licence. *R.A.T.S. - Ratte's Assorted Tactical Systems*
