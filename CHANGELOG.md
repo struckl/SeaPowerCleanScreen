@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.1 - 2026-11-11 - declared for game 0.9.0
+
+- **Declared for game 0.9.0.** The mod's `_info.ini` now says it fits 0.8.7 up to every 0.9.x, so the game no longer lists it as "not declared to be compatible", and Steam hands this and later updates to 0.9.0 players (the game skips Workshop updates whose declaration does not fit its version). Checked offline against 0.9.0 (build 261111): the game still reads `[Debug] ShowVersionWatermark` from config.ini; not run in the game on 0.9.0 yet.
+
 ## 0.2.0 - 2026-11-09 - no code any more
 
 The mod is now two ini files: `config_patch.ini` extends the game's `config.ini` with `[Debug] ShowVersionWatermark=False`, which the game reads

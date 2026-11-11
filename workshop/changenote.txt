@@ -1,2 +1,3 @@
-0.2.0: no code any more. The mod is a config patch (two ini lines) that sets the game's own ShowVersionWatermark to False, so it needs no mod loader. Switch the mod off in the Mods menu to get the label back.
-Run in the game on the 3D globe public beta (build 261107): a mission shows no version label. 0.8.7 not run.
+0.2.1: ready for Sea Power 0.9.0.
+The game no longer lists this mod as "not declared to be compatible", and 0.9.0 players get this and later updates from the Workshop (the game skips updates from items that do not declare its version).
+Nothing else changed. Checked against 0.9.0 (build 261111) without starting the game: the game still reads the setting it switches off. Not yet run in the game on 0.9.0.
