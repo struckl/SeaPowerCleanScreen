@@ -3,7 +3,7 @@
     Stages the folder of Sea Power Clean Screen that goes to the Steam Workshop. The mod has no code: two ini files.
 
 .DESCRIPTION
-    dist\SeaPowerCleanScreen\ gets exactly what players get: _info.ini, config_patch.ini, LICENSE.txt and preview.jpg (the Workshop
+    dist\SeaPowerCleanScreen\ gets exactly what players get: _info.ini, config_patch.ini, LICENSE.txt, CHANGELOG.md and preview.jpg (the Workshop
     preview, which the game's upload screen only lets you pick from inside StreamingAssets).
     With -Install the staged folder also replaces <GameDir>\Sea Power_Data\StreamingAssets\SeaPowerCleanScreen\ (the folder to pick in
     the game's Create Mod screen), which also removes the DLL of version 0.1.0. Sea Power must be closed for that.
@@ -25,6 +25,7 @@ New-Item -ItemType Directory -Force $dist | Out-Null
 Copy-Item (Join-Path $root 'mod\_info.ini') $dist
 Copy-Item (Join-Path $root 'mod\config_patch.ini') $dist
 Copy-Item (Join-Path $root 'LICENSE') (Join-Path $dist 'LICENSE.txt')
+Copy-Item (Join-Path $root 'CHANGELOG.md') $dist   # Keel's What's new shows its newest lines when there are no Workshop notes (local copies, GitHub zips)
 $preview = Join-Path $root 'workshop\preview.jpg'
 if (Test-Path $preview) { Copy-Item $preview $dist } else { Write-Warning 'workshop\preview.jpg missing - nothing to pick as the Workshop preview.' }
 
