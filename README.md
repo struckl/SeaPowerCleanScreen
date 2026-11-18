@@ -22,4 +22,6 @@ Version 0.1.0 was a plugin that switched the label off once a second; since 0.2.
 
 `powershell -File tools\package.ps1 [-Install]` stages `dist\SeaPowerCleanScreen` (no build); `-Install` also puts it into the game folder.
 
-MIT licence. *R.A.T.S. - Ratte's Assorted Tactical Systems*
+[R.A.T.S. Source License](LICENSE): read it, fork it, send fixes; no re-uploads, no reuse in other projects.
+
+*R.A.T.S. - Ratte's Assorted Tactical Systems*
