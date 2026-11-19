@@ -1,45 +1,37 @@
 # Sea Power: R.A.T.S. Clean Screen
 
-Hides the game's own version label ("Sea Power v0.8.7-261107", drawn on the Steam beta branch). The label sits above every
-window and covers their title bars: the map's buttons, pop-out windows, any mod's windows.
+Hides the game's own version label, which sits above every window and covers their title bars.
 
-- Needs no mod loader and no code.
-- Workshop: [R.A.T.S. Clean Screen](https://steamcommunity.com/sharedfiles/filedetails/?id=3836386468)
-- Bugs, ideas, questions: [R.A.T.S. feedback board](https://hub.sewerlabs.dev/s/cleanscreen)
+| | |
+| --- | --- |
+| Version | `0.2.2` (2026-11-12) |
+| Game | Sea Power 0.9.1 (build 261112) run in the game, under Keel; 0.8.7 not run |
+| Needs | nothing: no code, no mod loader |
+| Get it | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3836386468) |
+| Settings | none; switch the mod off in the Mod Manager to get the label back |
+| Feedback | [R.A.T.S. feedback board](https://hub.sewerlabs.dev/s/cleanscreen) |
+| Source | R.A.T.S. Source License, see `LICENSE` |
 
-## What it does
+## Features
 
-- `config_patch.ini` extends the game's `config.ini` with `[Debug] ShowVersionWatermark=False`.
-- The game reads that switch before it draws the label.
-- It does nothing else.
+- Hides the label ("Sea Power v0.8.7-261107", drawn on the Steam beta branch) over the map's buttons, pop-out windows and any mod's windows.
+- Two ini files, nothing loaded: `config_patch.ini` adds `[Debug] ShowVersionWatermark=False` to the game's `config.ini`.
 - The version text in the main menu's corner is the game's own and stays.
 
 ## Install
 
-- Workshop: subscribe, then switch the mod on in the game's Mod Manager.
-- By hand: put the folder `SeaPowerCleanScreen` (with `_info.ini` and `config_patch.ini`) into
-  `<Sea Power>\Sea Power_Data\StreamingAssets\` and switch it on in the Mod Manager.
-
-## Settings
-
-- There are none. To get the label back, switch the mod off in the Mod Manager.
-
-## Compatibility
-
-- `_info.ini` declares game 0.8.7 up to (not including) 0.10.0.
-- Run in the game on the 3D-globe build: 0.9.1 (build 261112) under Keel, in Red Sea Breakout.
-- 0.8.7 was not run.
-- Nothing is loaded, so it does not depend on Keel or Anchor Chain.
-
-## Feedback
-
-- [R.A.T.S. feedback board](https://hub.sewerlabs.dev/s/cleanscreen)
+1. Workshop: subscribe, then switch the mod on in the game's Mod Manager.
+2. By hand: put the folder `SeaPowerCleanScreen` (with `_info.ini` and `config_patch.ini`) into `<Sea Power>\Sea Power_Data\StreamingAssets\` and switch it on in the Mod Manager.
 
 ## Building
 
-- No build step. `powershell -File tools\package.ps1 [-Install]` stages `dist\SeaPowerCleanScreen`; `-Install` also copies it into the game folder.
+- No build step; `_info.ini` declares game 0.8.7 up to (not including) 0.10.0.
 
-## Layout
+```powershell
+powershell -File tools\package.ps1 [-Install]
+```
+
+It stages `dist\SeaPowerCleanScreen`; `-Install` also copies it into the game folder.
 
 | Path | What |
 |---|---|
@@ -48,7 +40,7 @@ window and covers their title bars: the map's buttons, pop-out windows, any mod'
 | `tools/package.ps1` | Stages the package |
 | `workshop/` | Workshop page text and pictures |
 
-## Licenses and credits
+## Credits and license
 
 - [R.A.T.S. Source License](LICENSE): read it, fork it, send fixes; no re-uploads, no reuse in other projects.
 
