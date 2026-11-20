@@ -4,7 +4,7 @@ Hides the game's own version label, which sits above every window and covers the
 
 | | |
 | --- | --- |
-| Version | `0.2.2` (2026-11-12) |
+| Version | `0.2.3` (2026-11-20) |
 | Game | Sea Power 0.9.1 (build 261112) run in the game, under Keel; 0.8.7 not run |
 | Needs | nothing: no code, no mod loader |
 | Get it | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3836386468) |

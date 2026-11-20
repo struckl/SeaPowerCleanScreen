@@ -1,1 +1,2 @@
-0.2.2: shows as "R.A.T.S. Clean Screen" in the game's mod list and in the mod loader's list (Keel or Anchor Chain), the same name on every game version. Runs on Sea Power 0.9.1.
+0.2.3: carries its CHANGELOG.
+- The mod folder carries CHANGELOG.md, so R.A.T.S. Keel's What's new can show what changed for local copies too
