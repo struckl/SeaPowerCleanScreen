@@ -4,12 +4,13 @@ Hides the game's own version label, which sits above every window and covers the
 
 | | |
 | --- | --- |
+| Questions | [R.A.T.S. Discord](https://discord.gg/CzuHd4f8Yf): help, ideas, talk; the first place to ask |
 | Version | `0.2.3` (2026-11-20) |
 | Game | Sea Power 0.9.1 (build 261112) run in the game, under Keel; 0.8.7 not run |
 | Needs | nothing: no code, no mod loader |
 | Get it | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3836386468) |
 | Settings | none; switch the mod off in the Mod Manager to get the label back |
-| Feedback | [R.A.T.S. feedback board](https://hub.sewerlabs.dev/s/cleanscreen) |
+| Bug reports | [R.A.T.S. feedback board](https://hub.sewerlabs.dev/s/cleanscreen) |
 | Source | R.A.T.S. Source License, see `LICENSE` |
 
 ## Features
